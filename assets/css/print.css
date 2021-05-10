@@ -1,0 +1,172 @@
+.noprint,
+#hero,
+.mobile-nav-toggle {
+    display: none !important;
+}
+
+.noshow {
+    visibility: visible !important;
+    height: auto !important;
+}
+
+* {
+    background-color: transparent !important;
+}
+
+body {
+    background-color: #fff;
+    margin: 1.6cm;
+}
+
+p,
+a:link,
+a:visited {
+    color: #333;
+}
+
+.container {
+    width: 95%;
+    margin: 2%;
+    float: none !important;
+}
+
+[data-aos^=fade][data-aos^=fade] {
+    opacity: 1 !important;
+}
+
+#about,
+#skills,
+#resume,
+#portfolio {
+    page-break-after: always;
+}
+
+section {
+    padding-top: 0px;
+}
+
+.section-title {
+    padding-bottom: 0px;
+}
+
+p.just,
+.resume-item p,
+.portfolio-item p {
+    text-align: justify;
+}
+
+
+/* ---------------------------------------------------
+# About 
+--------------------------------------------------- */
+
+#about img {
+    width: 200px;
+    border-radius: 100%;
+    float: right;
+    margin: 20px;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.about .content ul {
+    margin: 0px;
+}
+
+.about-list {
+    margin: 20px 0px;
+}
+
+
+/* ---------------------------------------------------
+# Skils 
+--------------------------------------------------- */
+
+.skill {
+    padding: 3px 0;
+    margin: 0 0 0 0;
+    text-transform: uppercase;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.progress {
+    width: 95%;
+}
+
+.progress .skill .val {
+    float: right;
+    font-style: normal;
+}
+
+[aria-valuenow="100"] {
+    width: 100% !important;
+}
+
+[aria-valuenow="80"] {
+    width: 80% !important;
+}
+
+[aria-valuenow="75"] {
+    width: 75% !important;
+}
+
+[aria-valuenow="50"] {
+    width: 50% !important;
+}
+
+[aria-valuenow="30"] {
+    width: 30% !important;
+}
+
+[aria-valuenow="25"] {
+    width: 25% !important;
+}
+
+.progress-bar-wrap {
+    border-bottom: solid 5px #dce8f8;
+    height: 10px;
+}
+
+.progress-bar {
+    height: 10px;
+    border-bottom: solid 5px #149ddd;
+}
+
+
+/* ---------------------------------------------------
+# Portfolio 
+--------------------------------------------------- */
+
+.portfolio-description h2 {
+    color: #173b6c;
+}
+
+.portfolio-info h3 {
+    display: none;
+}
+
+.portfolio-info ul {
+    padding-left: 0px;
+}
+
+.portfolio-info li {
+    list-style: none;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+.portfolio-info strong {
+    font-weight: 500;
+    padding-right: 4px;
+}
+
+.portfolio-item {
+    border-bottom: solid 2px #149ddd;
+}
+
+.contact .info {
+    padding: 0;
+    margin-top: 10px;
+    box-shadow: none;
+}
