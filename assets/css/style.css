@@ -241,6 +241,12 @@ h6,
     border-bottom: 3px solid;
 }
 
+#downloadCV:hover {
+    background-color: #fff;
+    color: #149ddd;
+    border-color: #fff;
+}
+
 @media (min-width: 1024px) {
     #hero {
         background-attachment: fixed;
@@ -248,6 +254,13 @@ h6,
 }
 
 @media (max-width: 768px) {
+    #hero {
+        background-position: 528px;
+    }
+    #hero .hero-container {
+        top: 30%;
+        left: 10px;
+    }
     #hero h1 {
         font-size: 28px;
         line-height: 36px;
@@ -256,6 +269,9 @@ h6,
         font-size: 18px;
         line-height: 24px;
         margin-bottom: 30px;
+    }
+    #contact {
+        margin-top: 10px;
     }
 }
 
@@ -321,6 +337,12 @@ section {
 
 .about .content p:last-child {
     margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .about .content ul {
+        margin-bottom: 0px;
+    }
 }
 
 
@@ -845,6 +867,59 @@ section {
 
 
 /*--------------------------------------------------------------
+# Certifications Section
+--------------------------------------------------------------*/
+
+ul.awards {
+    list-style: none;
+}
+
+.awards li {
+    clear: both;
+}
+
+img.award-image {
+    max-width: 75px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 42px;
+}
+
+a.award-info {
+    float: left;
+    display: block;
+    color: #2d3240;
+}
+
+a.award-info:hover {
+    color: #149ddd;
+}
+
+.award-info h3 {
+    font-size: 16px;
+}
+
+.award-info p {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    ul.awards {
+        padding-left: 0px;
+    }
+    img.award-image {
+        max-width: 55px;
+        margin-right: 10px;
+    }
+    .award-info h3 {
+        font-size: 13px;
+    }
+}
+
+
+/*--------------------------------------------------------------
 # fix for Links do not have a discernible name 
 --------------------------------------------------------------*/
 
@@ -1154,8 +1229,6 @@ a:hover {
     border-bottom-color: #eee;
 }
 
-.btn-outline-light:hover {
-    background-color: transparent;
-    border: none;
-    color: #dff3fc;
+.page-brake {
+    page-break-after: always;
 }
