@@ -889,11 +889,6 @@ img.award-image {
 a.award-info {
     float: left;
     display: block;
-    color: #2d3240;
-}
-
-a.award-info:hover {
-    color: #149ddd;
 }
 
 .award-info h3 {
@@ -938,6 +933,32 @@ a.award-info:hover {
 .noshow {
     visibility: hidden;
     height: 0px;
+}
+
+
+/*--------------------------------------------------------------
+# Print
+--------------------------------------------------------------*/
+
+.page-brake {
+    page-break-after: always;
+}
+
+.print-page .awards h3,
+.awards p {
+    margin: 0px;
+}
+
+.print-page .awards h3 {
+    font-size: 12px;
+}
+
+.print-page .awards p {
+    font-size: 11px;
+}
+
+.print-page .awards li {
+    margin-bottom: 5px;
 }
 
 
@@ -1229,6 +1250,10 @@ a:hover {
     border-bottom-color: #eee;
 }
 
-.page-brake {
-    page-break-after: always;
+a.award-info {
+    color: #2d3240;
+}
+
+a.award-info:hover {
+    color: #149ddd;
 }
