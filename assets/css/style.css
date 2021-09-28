@@ -125,6 +125,16 @@ h6,
     }
 }
 
+.btn-light {
+    color: #fff;
+    background-color: #149ddd;
+    border-color: #149ddd;
+}
+
+.btn-light svg {
+    fill: #fff !important;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
